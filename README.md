@@ -1,15 +1,15 @@
-# Academix 📚
+# Academix
 
-AI-powered study companion.
+Academix is an AI-powered study companion that helps students turn PDF materials into quizzes, notes, and chat-based learning support.
 
-Features:
-- PDF based quiz generation
-- AI notes generation
-- PDF chatbot
+## Features
+- PDF-based quiz generation
+- AI-generated study notes
+- PDF chatbot assistance
 - Progress tracking
-- Result reports
+- Downloadable result reports
 
-Built using:
+## Technologies Used
 - Python
 - Streamlit
 - Groq AI
@@ -17,4 +17,7 @@ Built using:
 - Plotly
 - ReportLab
 
-Created by Gargi ❤️
+## Purpose
+Academix makes studying more interactive by converting static content into an engaging, AI-assisted learning experience.
+
+Created by Gargi.
