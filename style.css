@@ -1,0 +1,77 @@
+/* Main background */
+.stApp {
+    background-color: #f5f7fb;
+}
+
+/* Main title */
+h1 {
+    color: #892bb5;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #421d44;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+/* Selectbox */
+div[data-baseweb="select"] > div {
+    background-color: #4d214c !important;
+    color: white !important;
+    border-radius: 10px;
+}
+
+/* Selected option */
+div[data-baseweb="select"] span {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Dropdown menu */
+ul[role="listbox"] {
+    background-color: #4d214c !important;
+}
+
+/* Dropdown options */
+ul[role="listbox"] li {
+    color: white !important;
+    background-color: #4f2052 !important;
+}
+
+/* Hover option */
+ul[role="listbox"] li:hover {
+    background-color: #561a52 !important;
+    color: white !important;
+}
+
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #4e1853;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+}
+
+.stButton > button:hover {
+    background-color: #4c2051;
+}
+
+/* Metric cards */
+div[data-testid="metric-container"] {
+    border-radius: 15px;
+    background: white;
+    padding: 15px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Text area */
+textarea {
+    border-radius: 10px !important;
+}
